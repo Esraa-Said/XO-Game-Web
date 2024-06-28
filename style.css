@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(25, 42, 50);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* buttons 31 53 64 */
+/* x 47 196 194 */
+/* text last line 18 62 71 */
+/* shadow 15 32 40 */
+/* again 168 190 201 */
+/* o 242 178 55 */
+#container{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 40%;
+    top: 100px;
+    transform: translate(-50%,0%);
+    height: 500px;
+
+}
+#container   #first{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+#container #first #xo{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 17px;
+}
+
+#container #first #turn{
+    color: rgb(168, 190, 201);
+    background-color: rgb(31, 53, 64);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 17px;
+    box-shadow: 1px 1px 1px 1px rgb(15, 32 ,40 );
+
+}
+
+#container #first #again{
+    background-color:rgb(168, 190, 201) ;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(31, 53, 64);
+    margin-right: 10px;
+    cursor: pointer;
+}
+#container  .elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+}
+#container .elements div{
+background-color: rgb(31, 53, 64) ;
+width: 80px;
+height: 50px;
+border-radius: 5px;
+box-shadow: 1px 1px 1px 1px rgb(15, 32 ,40 );
+cursor: pointer;
+position: relative;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+padding-top: 20px;
+}
+
+
+#container #last{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+#container #last #x{
+    background-color: rgb(47, 196, 194);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(18 ,62 ,71);
+    margin-left: -8px;
+}
+
+#container #last #ties{
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(18 ,62 ,71);
+    margin-right: -8px;
+    margin-left: -8px;
+    background-color: rgb(168, 190, 201);;
+}
+
+#container #last #o{
+    background-color: rgb(242, 178, 55) ;
+    border-radius: 5px;
+    padding: 10px ;
+    text-align: center;
+    color: rgb(18 ,62 ,71);
+    margin-right: -10px;
+}
+
+
+@media only screen and (max-width:1200px){
+    #container{
+        width: 70%;
+    }
+    #container #last {
+        font-size: 12px;
+
+    }
+}

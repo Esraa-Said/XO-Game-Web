@@ -1,1 +1,3 @@
-# XO-Game-Web
+# XO-Game-web
+
+![XO-Game](image.png)
