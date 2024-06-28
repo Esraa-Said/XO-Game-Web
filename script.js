@@ -117,13 +117,13 @@ function checkWinner() {
 function updateGame(game) {
   if (game === 0) return 0;
   if (game === 1) {
-    turn.textContent = "X is Winner";
+    turn.textContent = "X Winner";
     xScore.textContent = Number(xScore.textContent) + 1;
     startConfetti(); // Start confetti for X winner
     return 1;
   }
   if (game === 2) {
-    turn.textContent = "O is Winner";
+    turn.textContent = "O Winner";
     oScore.textContent = Number(oScore.textContent) + 1;
     startConfetti(); // Start confetti for O winner
     return 2;
